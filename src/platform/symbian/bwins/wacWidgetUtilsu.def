@@ -1,0 +1,190 @@
+EXPORTS
+	?setIsFullView@WebAppRegistry@@UAEXABVQString@@_N@Z @ 1 NONAME ; void WebAppRegistry::setIsFullView(class QString const &, bool)
+	?setText@W3CElement@@QAEXABVQString@@@Z @ 2 NONAME ; void W3CElement::setText(class QString const &)
+	??0WebAppRegistry@@IAE@XZ @ 3 NONAME ; WebAppRegistry::WebAppRegistry(void)
+	?installationSucceed@WidgetManager@@IAEXXZ @ 4 NONAME ; void WidgetManager::installationSucceed(void)
+	?install@WidgetManager@@IAE?AW4WidgetInstallError@@ABVQString@@AAV3@00_N20@Z @ 5 NONAME ; enum WidgetInstallError WidgetManager::install(class QString const &, class QString &, class QString const &, class QString const &, bool, bool, class QString const &)
+	?setWebAppVersion@WebAppRegistry@@UAE_NABVQString@@ABVQVariant@@0@Z @ 6 NONAME ; bool WebAppRegistry::setWebAppVersion(class QString const &, class QVariant const &, class QString const &)
+	??4WebAppInfo@@QAEAAV0@ABV0@@Z @ 7 NONAME ; class WebAppInfo & WebAppInfo::operator=(class WebAppInfo const &)
+	?namespaceUri@ConfigXmlParser@@QAE?AVQString@@XZ @ 8 NONAME ; class QString ConfigXmlParser::namespaceUri(void)
+	?aboutToInstallUntrustedWidget@WidgetManager@@IAEXW4WidgetInstallError@@@Z @ 9 NONAME ; void WidgetManager::aboutToInstallUntrustedWidget(enum WidgetInstallError)
+	??0WebAppInfo@@QAE@ABV0@@Z @ 10 NONAME ; WebAppInfo::WebAppInfo(class WebAppInfo const &)
+	?isWidgetIdRegistered@WebAppRegistry@@UAE_NABVQString@@@Z @ 11 NONAME ; bool WebAppRegistry::isWidgetIdRegistered(class QString const &)
+	?staticMetaObject@WidgetManager@@2UQMetaObject@@B @ 12 NONAME ; struct QMetaObject const WidgetManager::staticMetaObject
+	?createDir@WidgetManager@@IAE_NABVQString@@@Z @ 13 NONAME ; bool WidgetManager::createDir(class QString const &)
+	?isPresent@WebAppInfo@@QBE_NXZ @ 14 NONAME ; bool WebAppInfo::isPresent(void) const
+	?asyncInstall@WidgetManager@@QAEXABVQString@@_N01@Z @ 15 NONAME ; void WidgetManager::asyncInstall(class QString const &, bool, class QString const &, bool)
+	?value@WebAppInfo@@QBE?AVQVariant@@ABVQString@@@Z @ 16 NONAME ; class QVariant WebAppInfo::value(class QString const &) const
+	?setIsPresent@WebAppRegistry@@UAE_NABVQString@@_N@Z @ 17 NONAME ; bool WebAppRegistry::setIsPresent(class QString const &, bool)
+	?getLocalizedFile@WebAppLocalizer@@SA?AVQString@@ABV2@_N0@Z @ 18 NONAME ; class QString WebAppLocalizer::getLocalizedFile(class QString const &, bool, class QString const &)
+	?dataStorageLocation@WidgetLinkResolver@@SA?BVQString@@XZ @ 19 NONAME ; class QString const WidgetLinkResolver::dataStorageLocation(void)
+	?appIdTonativeId@WebAppRegistry@@UAEHABVQString@@@Z @ 20 NONAME ; int WebAppRegistry::appIdTonativeId(class QString const &)
+	?setIsMiniView@WebAppRegistry@@UAEXABVQString@@_N@Z @ 21 NONAME ; void WebAppRegistry::setIsMiniView(class QString const &, bool)
+	?setCapabilityCheck@WebAppRegistry@@UAE_NABVQString@@_N@Z @ 22 NONAME ; bool WebAppRegistry::setCapabilityCheck(class QString const &, bool)
+	?isValidWidgetType@WidgetManager@@QAE_NABVQString@@0@Z @ 23 NONAME ; bool WidgetManager::isValidWidgetType(class QString const &, class QString const &)
+	??_EWebAppLocalizer@@QAE@I@Z @ 24 NONAME ; WebAppLocalizer::~WebAppLocalizer(unsigned int)
+	?qt_metacast@EmbedWidgetInstaller@@UAEPAXPBD@Z @ 25 NONAME ; void * EmbedWidgetInstaller::qt_metacast(char const *)
+	?uninstallL@EmbedWidgetInstaller@@QAE?AW4WidgetUninstallError@@VQString@@@Z @ 26 NONAME ABSENT ; enum WidgetUninstallError EmbedWidgetInstaller::uninstallL(class QString)
+	??_EWebAppInfo@@QAE@I@Z @ 27 NONAME ; WebAppInfo::~WebAppInfo(unsigned int)
+	?getWidgetFromCache@WidgetManager@@IAEPAVSuperWidget@@VQString@@@Z @ 28 NONAME ABSENT ; class SuperWidget * WidgetManager::getWidgetFromCache(class QString)
+	?interactiveRequest@WidgetManager@@IAEXHAAV?$QMap@W4WidgetPropertyType@@VQVariant@@@@@Z @ 29 NONAME ; void WidgetManager::interactiveRequest(int, class QMap<enum WidgetPropertyType, class QVariant> &)
+	??1WidgetManager@@UAE@XZ @ 30 NONAME ; WidgetManager::~WidgetManager(void)
+	?widgetType@WebAppInfo@@QBEHXZ @ 31 NONAME ; int WebAppInfo::widgetType(void) const
+	?launcherPath@WidgetManager@@QAE?AVQString@@ABV2@@Z @ 32 NONAME ; class QString WidgetManager::launcherPath(class QString const &)
+	??0WebAppLocalizer@@QAE@XZ @ 33 NONAME ; WebAppLocalizer::WebAppLocalizer(void)
+	??0W3CElement@@QAE@XZ @ 34 NONAME ; W3CElement::W3CElement(void)
+	?getWidgetType@SuperWidget@@SA?AW4WidgetType@@ABVQString@@@Z @ 35 NONAME ; enum WidgetType SuperWidget::getWidgetType(class QString const &)
+	?setInstallationAttributes@WidgetManager@@QAEXV?$QFlags@W4InstallationAttribute@WAC@@@@@Z @ 36 NONAME ABSENT ; void WidgetManager::setInstallationAttributes(class QFlags<enum WAC::InstallationAttribute>)
+	?install@WidgetManager@@QAE?AW4WidgetInstallError@@ABVQString@@AAV3@_N20@Z @ 37 NONAME ; enum WidgetInstallError WidgetManager::install(class QString const &, class QString &, bool, bool, class QString const &)
+	?aboutToInstallWidgetWithFeatures@WidgetManager@@IAEXV?$QList@VQString@@@@@Z @ 38 NONAME ; void WidgetManager::aboutToInstallWidgetWithFeatures(class QList<class QString>)
+	?capabilityCheck@WebAppInfo@@QBE_NXZ @ 39 NONAME ; bool WebAppInfo::capabilityCheck(void) const
+	?widgetIdToUniqueIdList@WebAppRegistry@@UAE?AVQStringList@@VQString@@@Z @ 40 NONAME ABSENT ; class QStringList WebAppRegistry::widgetIdToUniqueIdList(class QString)
+	?present@WebAppRegistry@@UAEPAV?$QList@VWebAppInfo@@@@_N@Z @ 41 NONAME ; class QList<class WebAppInfo> * WebAppRegistry::present(bool)
+	?unregister@WebAppRegistry@@UAE_NABVQString@@_N@Z @ 42 NONAME ; bool WebAppRegistry::unregister(class QString const &, bool)
+	??1EmbedWidgetInstaller@@UAE@XZ @ 43 NONAME ; EmbedWidgetInstaller::~EmbedWidgetInstaller(void)
+	?setIsActive@WebAppRegistry@@UAEXABVQString@@_N@Z @ 44 NONAME ; void WebAppRegistry::setIsActive(class QString const &, bool)
+	?getProperties@WidgetManager@@QAEPAVWidgetProperties@@ABVQString@@@Z @ 45 NONAME ; class WidgetProperties * WidgetManager::getProperties(class QString const &)
+	?nextAvailableUid@WebAppRegistry@@UAEHXZ @ 46 NONAME ; int WebAppRegistry::nextAvailableUid(void)
+	?backupRestoreInstall@WidgetManager@@QAE_NABVQString@@_N@Z @ 47 NONAME ; bool WidgetManager::backupRestoreInstall(class QString const &, bool)
+	?cancelInstallation@WidgetManager@@QAEXXZ @ 48 NONAME ; void WidgetManager::cancelInstallation(void)
+	?tr@WidgetManager@@SA?AVQString@@PBD0H@Z @ 49 NONAME ; class QString WidgetManager::tr(char const *, char const *, int)
+	?setNativeId@WebAppRegistry@@UAE_NABVQString@@0@Z @ 50 NONAME ; bool WebAppRegistry::setNativeId(class QString const &, class QString const &)
+	?parseFile@ConfigXmlParser@@QAE_NXZ @ 51 NONAME ; bool ConfigXmlParser::parseFile(void)
+	?url@WebAppInfo@@QBE?AVQUrl@@XZ @ 52 NONAME ; class QUrl WebAppInfo::url(void) const
+	?setContents@ConfigXmlParser@@QAEXABVQString@@@Z @ 53 NONAME ; void ConfigXmlParser::setContents(class QString const &)
+	?setContentType@WidgetManager@@QAEXABVQString@@@Z @ 54 NONAME ; void WidgetManager::setContentType(class QString const &)
+	??1WebAppRegistry@@MAE@XZ @ 55 NONAME ; WebAppRegistry::~WebAppRegistry(void)
+	??1ConfigXmlParser@@QAE@XZ @ 56 NONAME ; ConfigXmlParser::~ConfigXmlParser(void)
+	??1WebAppInfo@@QAE@XZ @ 57 NONAME ; WebAppInfo::~WebAppInfo(void)
+	?qt_metacall@EmbedWidgetInstaller@@UAEHW4Call@QMetaObject@@HPAPAX@Z @ 58 NONAME ; int EmbedWidgetInstaller::qt_metacall(enum QMetaObject::Call, int, void * *)
+	?setnamespaceUri@W3CElement@@QAEXABVQString@@@Z @ 59 NONAME ; void W3CElement::setnamespaceUri(class QString const &)
+	?getStaticMetaObject@WidgetManager@@SAABUQMetaObject@@XZ @ 60 NONAME ; struct QMetaObject const & WidgetManager::getStaticMetaObject(void)
+	?presentOnDrive@WebAppRegistry@@UAEPAV?$QList@VWebAppInfo@@@@VQString@@@Z @ 61 NONAME ABSENT ; class QList<class WebAppInfo> * WebAppRegistry::presentOnDrive(class QString)
+	?name@WebAppInfo@@QBE?AVQString@@XZ @ 62 NONAME ; class QString WebAppInfo::name(void) const
+	?handleProgress@WidgetManager@@QAEXHHW4WidgetOperationType@@@Z @ 63 NONAME ; void WidgetManager::handleProgress(int, int, enum WidgetOperationType)
+	?appTitle@WebAppInfo@@QBE?AVQString@@XZ @ 64 NONAME ; class QString WebAppInfo::appTitle(void) const
+	?type@WebAppInfo@@QBE?AVQString@@XZ @ 65 NONAME ; class QString WebAppInfo::type(void) const
+	?getProperties@WidgetManager@@QAEPAVWidgetProperties@@XZ @ 66 NONAME ; class WidgetProperties * WidgetManager::getProperties(void)
+	?cancel@WidgetManager@@QAEXH@Z @ 67 NONAME ; void WidgetManager::cancel(int)
+	?platformLanguage@WebAppLocalizer@@SA?AVQString@@XZ @ 68 NONAME ; class QString WebAppLocalizer::platformLanguage(void)
+	?trUtf8@EmbedWidgetInstaller@@SA?AVQString@@PBD0@Z @ 69 NONAME ; class QString EmbedWidgetInstaller::trUtf8(char const *, char const *)
+	?tr@EmbedWidgetInstaller@@SA?AVQString@@PBD0@Z @ 70 NONAME ; class QString EmbedWidgetInstaller::tr(char const *, char const *)
+	?notPresentOnDrive@WebAppRegistry@@UAEPAV?$QList@VWebAppInfo@@@@VQString@@@Z @ 71 NONAME ABSENT ; class QList<class WebAppInfo> * WebAppRegistry::notPresentOnDrive(class QString)
+	?uniqueIdToWidgetId@WebAppRegistry@@UAE?AVQString@@V2@@Z @ 72 NONAME ABSENT ; class QString WebAppRegistry::uniqueIdToWidgetId(class QString)
+	?progress@WidgetManager@@IAEXHHW4WidgetOperationType@@@Z @ 73 NONAME ; void WidgetManager::progress(int, int, enum WidgetOperationType)
+	?tryContinueInstallation@WidgetManager@@QAEXXZ @ 74 NONAME ; void WidgetManager::tryContinueInstallation(void)
+	?language@ConfigXmlParser@@QBE?AVQString@@XZ @ 75 NONAME ; class QString ConfigXmlParser::language(void) const
+	?instance@WebAppRegistry@@SAPAV1@XZ @ 76 NONAME ; class WebAppRegistry * WebAppRegistry::instance(void)
+	?getElement@ConfigXmlParser@@QBEPBVW3CElement@@ABVQString@@0@Z @ 77 NONAME ; class W3CElement const * ConfigXmlParser::getElement(class QString const &, class QString const &) const
+	??_EConfigXmlParser@@QAE@I@Z @ 78 NONAME ; ConfigXmlParser::~ConfigXmlParser(unsigned int)
+	?handleCompleted@WidgetManager@@QAEXH@Z @ 79 NONAME ; void WidgetManager::handleCompleted(int)
+	?tr@WidgetManager@@SA?AVQString@@PBD0@Z @ 80 NONAME ; class QString WidgetManager::tr(char const *, char const *)
+	?readElementText@W3CElement@@QBE?AVQString@@XZ @ 81 NONAME ; class QString W3CElement::readElementText(void) const
+	?languages@ConfigXmlParser@@QBE?AV?$QSet@VQString@@@@XZ @ 82 NONAME ; class QSet<class QString> ConfigXmlParser::languages(void) const
+	??_EWebAppRegistry@@UAE@I@Z @ 83 NONAME ; WebAppRegistry::~WebAppRegistry(unsigned int)
+	?s_widgetExistsCache@WebAppLocalizer@@0V?$QHash@VQString@@V1@@@A @ 84 NONAME ; class QHash<class QString, class QString> WebAppLocalizer::s_widgetExistsCache
+	?id@ConfigXmlParser@@QAE?AVQString@@XZ @ 85 NONAME ; class QString ConfigXmlParser::id(void)
+	?handleAborted@WidgetManager@@QAEXHW4WidgetErrorType@@@Z @ 86 NONAME ; void WidgetManager::handleAborted(int, enum WidgetErrorType)
+	?queryConfirmation@WidgetManager@@IAEXXZ @ 87 NONAME ; void WidgetManager::queryConfirmation(void)
+	?qt_metacast@WidgetManager@@UAEPAXPBD@Z @ 88 NONAME ; void * WidgetManager::qt_metacast(char const *)
+	?isValidWidgetType@WidgetManager@@QAE_NABVQString@@@Z @ 89 NONAME ; bool WidgetManager::isValidWidgetType(class QString const &)
+	?version@ConfigXmlParser@@QAE?AVQString@@XZ @ 90 NONAME ; class QString ConfigXmlParser::version(void)
+	?staticMetaObject@EmbedWidgetInstaller@@2UQMetaObject@@B @ 91 NONAME ; struct QMetaObject const EmbedWidgetInstaller::staticMetaObject
+	?uid@WebAppInfo@@QBEHXZ @ 92 NONAME ; int WebAppInfo::uid(void) const
+	?trUtf8@WidgetManager@@SA?AVQString@@PBD0H@Z @ 93 NONAME ; class QString WidgetManager::trUtf8(char const *, char const *, int)
+	?setWidgetIntoCache@WidgetManager@@IAEXVQString@@PAVSuperWidget@@@Z @ 94 NONAME ABSENT ; void WidgetManager::setWidgetIntoCache(class QString, class SuperWidget *)
+	?installProgress@WidgetManager@@IAEXH@Z @ 95 NONAME ; void WidgetManager::installProgress(int)
+	?ProcessDied@EmbedWidgetInstaller@@UAEXH@Z @ 96 NONAME ABSENT ; void EmbedWidgetInstaller::ProcessDied(int)
+	?findStartFile@WebAppLocalizer@@SA?AVQString@@ABV2@0@Z @ 97 NONAME ; class QString WebAppLocalizer::findStartFile(class QString const &, class QString const &)
+	?allKeys@ConfigXmlParser@@QAE?AVQStringList@@XZ @ 98 NONAME ; class QStringList ConfigXmlParser::allKeys(void)
+	?widgetIdToUniqueId@WebAppRegistry@@UAE?AVQString@@V2@@Z @ 99 NONAME ABSENT ; class QString WebAppRegistry::widgetIdToUniqueId(class QString)
+	?setCertificateAki@WebAppRegistry@@UAE_NABVQString@@0@Z @ 100 NONAME ; bool WebAppRegistry::setCertificateAki(class QString const &, class QString const &)
+	??0WidgetManager@@QAE@PAVQWidget@@_N@Z @ 101 NONAME ; WidgetManager::WidgetManager(class QWidget *, bool)
+	?attributes@WebAppInfo@@QBEABV?$QMap@VQString@@VQVariant@@@@XZ @ 102 NONAME ; class QMap<class QString, class QVariant> const & WebAppInfo::attributes(void) const
+	?setWebAppAttribute@WebAppRegistry@@UAE_NABVQString@@0ABVQVariant@@@Z @ 103 NONAME ; bool WebAppRegistry::setWebAppAttribute(class QString const &, class QString const &, class QVariant const &)
+	?addAttribute@W3CElement@@QAEXABVQString@@0@Z @ 104 NONAME ; void W3CElement::addAttribute(class QString const &, class QString const &)
+	?count@ConfigXmlParser@@QBEHXZ @ 105 NONAME ; int ConfigXmlParser::count(void) const
+	?installationCancelled@WidgetManager@@IAEXXZ @ 106 NONAME ; void WidgetManager::installationCancelled(void)
+	?readSisxWidgetList@WidgetManager@@QAE?AV?$QHash@VQString@@I@@XZ @ 107 NONAME ; class QHash<class QString, unsigned int> WidgetManager::readSisxWidgetList(void)
+	?appId@WebAppInfo@@QBE?AVQString@@XZ @ 108 NONAME ; class QString WebAppInfo::appId(void) const
+	?dataPath@WebAppInfo@@QBE?AVQString@@XZ @ 109 NONAME ; class QString WebAppInfo::dataPath(void) const
+	?isRegistered@WebAppRegistry@@UAE_NABVQString@@AAVWebAppInfo@@@Z @ 110 NONAME ; bool WebAppRegistry::isRegistered(class QString const &, class WebAppInfo &)
+	?attributeValue@W3CElement@@QBE?AVQString@@ABV2@@Z @ 111 NONAME ; class QString W3CElement::attributeValue(class QString const &) const
+	?installationError@WidgetManager@@IAEXW4WidgetInstallError@@@Z @ 112 NONAME ; void WidgetManager::installationError(enum WidgetInstallError)
+	?completed@WidgetManager@@IAEXH@Z @ 113 NONAME ; void WidgetManager::completed(int)
+	?nativeIdToAppId@WebAppRegistry@@UAE?AVQString@@ABV2@@Z @ 114 NONAME ; class QString WebAppRegistry::nativeIdToAppId(class QString const &)
+	?elementName@W3CElement@@QBEABVQString@@XZ @ 115 NONAME ; class QString const & W3CElement::elementName(void) const
+	?uninstallSisx@WidgetManager@@QAE?AW4WidgetUninstallError@@ABVQString@@_N@Z @ 116 NONAME ; enum WidgetUninstallError WidgetManager::uninstallSisx(class QString const &, bool)
+	?resolveLink@WidgetLinkResolver@@SA?BVQString@@ABV2@0@Z @ 117 NONAME ; class QString const WidgetLinkResolver::resolveLink(class QString const &, class QString const &)
+	?contains@ConfigXmlParser@@QBE_NABVQString@@PAV2@@Z @ 118 NONAME ; bool ConfigXmlParser::contains(class QString const &, class QString *) const
+	?preInstalledLocation@WidgetLinkResolver@@SA?BVQString@@XZ @ 119 NONAME ; class QString const WidgetLinkResolver::preInstalledLocation(void)
+	?width@ConfigXmlParser@@QBE?AVQString@@XZ @ 120 NONAME ; class QString ConfigXmlParser::width(void) const
+	?aboutToReplaceExistingWidget@WidgetManager@@IAEXVQString@@@Z @ 121 NONAME ; void WidgetManager::aboutToReplaceExistingWidget(class QString)
+	?height@ConfigXmlParser@@QBE?AVQString@@XZ @ 122 NONAME ; class QString ConfigXmlParser::height(void) const
+	?sisxWidgetFile@WidgetManager@@QAE?AVQString@@XZ @ 123 NONAME ; class QString WidgetManager::sisxWidgetFile(void)
+	?getWidgetPathParts@SuperWidget@@SA_NAAVQStringList@@ABVQString@@@Z @ 124 NONAME ; bool SuperWidget::getWidgetPathParts(class QStringList &, class QString const &)
+	?uninstallProgress@WidgetManager@@QAEXH@Z @ 125 NONAME ; void WidgetManager::uninstallProgress(int)
+	?startPath@WebAppInfo@@QBE?AVQString@@XZ @ 126 NONAME ; class QString WebAppInfo::startPath(void) const
+	?iconPath@WebAppInfo@@QBE?AVQString@@XZ @ 127 NONAME ; class QString WebAppInfo::iconPath(void) const
+	??1W3CElement@@QAE@XZ @ 128 NONAME ; W3CElement::~W3CElement(void)
+	?removeWidgetFromCache@WidgetManager@@QAEXVQString@@@Z @ 129 NONAME ABSENT ; void WidgetManager::removeWidgetFromCache(class QString)
+	?setUid@WebAppRegistry@@UAE_NABVQString@@H@Z @ 130 NONAME ; bool WebAppRegistry::setUid(class QString const &, int)
+	?getContentType@WidgetManager@@QAE_NAAVQString@@@Z @ 131 NONAME ; bool WidgetManager::getContentType(class QString &)
+	?installComplete@WidgetManager@@IAEXVQString@@W4WidgetInstallError@@@Z @ 132 NONAME ; void WidgetManager::installComplete(class QString, enum WidgetInstallError)
+	?metaObject@WidgetManager@@UBEPBUQMetaObject@@XZ @ 133 NONAME ; struct QMetaObject const * WidgetManager::metaObject(void) const
+	?getElement@WebAppInfo@@QBE?AV?$QList@PAVW3CElement@@@@ABVQString@@PBVW3CElement@@0@Z @ 134 NONAME ; class QList<class W3CElement *> WebAppInfo::getElement(class QString const &, class W3CElement const *, class QString const &) const
+	?getAttribute@WebAppRegistry@@UAE?AVQVariant@@ABVQString@@0ABV2@@Z @ 135 NONAME ; class QVariant WebAppRegistry::getAttribute(class QString const &, class QString const &, class QVariant const &)
+	?queryInstallationDestination@WidgetManager@@IAEXK_N@Z @ 136 NONAME ; void WidgetManager::queryInstallationDestination(unsigned long, bool)
+	?metaObject@EmbedWidgetInstaller@@UBEPBUQMetaObject@@XZ @ 137 NONAME ; struct QMetaObject const * EmbedWidgetInstaller::metaObject(void) const
+	?widgetType@ConfigXmlParser@@QBE?AVQString@@XZ @ 138 NONAME ; class QString ConfigXmlParser::widgetType(void) const
+	??_EWidgetManager@@UAE@I@Z @ 139 NONAME ; WidgetManager::~WidgetManager(unsigned int)
+	??0W3CElement@@QAE@ABVQString@@@Z @ 140 NONAME ; W3CElement::W3CElement(class QString const &)
+	?isRegistered@WidgetManager@@QAE_NABVQString@@@Z @ 141 NONAME ; bool WidgetManager::isRegistered(class QString const &)
+	?installSisx@WidgetManager@@QAE?AVQString@@ABV2@0@Z @ 142 NONAME ; class QString WidgetManager::installSisx(class QString const &, class QString const &)
+	?trUtf8@WidgetManager@@SA?AVQString@@PBD0@Z @ 143 NONAME ; class QString WidgetManager::trUtf8(char const *, char const *)
+	?tr@EmbedWidgetInstaller@@SA?AVQString@@PBD0H@Z @ 144 NONAME ; class QString EmbedWidgetInstaller::tr(char const *, char const *, int)
+	?isRegistered@WebAppRegistry@@UBE_NABVQString@@@Z @ 145 NONAME ; bool WebAppRegistry::isRegistered(class QString const &) const
+	?writeSisxWidgetList@WidgetManager@@QAEXV?$QHash@VQString@@I@@@Z @ 146 NONAME ABSENT ; void WidgetManager::writeSisxWidgetList(class QHash<class QString, unsigned int>)
+	?trUtf8@EmbedWidgetInstaller@@SA?AVQString@@PBD0H@Z @ 147 NONAME ; class QString EmbedWidgetInstaller::trUtf8(char const *, char const *, int)
+	??0EmbedWidgetInstaller@@QAE@XZ @ 148 NONAME ; EmbedWidgetInstaller::EmbedWidgetInstaller(void)
+	?registered@WebAppRegistry@@UAEPAV?$QList@VWebAppInfo@@@@XZ @ 149 NONAME ; class QList<class WebAppInfo> * WebAppRegistry::registered(void)
+	??1WebAppLocalizer@@QAE@XZ @ 150 NONAME ; WebAppLocalizer::~WebAppLocalizer(void)
+	?setAttributes@W3CElement@@QAEXABVQXmlStreamAttributes@@@Z @ 151 NONAME ; void W3CElement::setAttributes(class QXmlStreamAttributes const &)
+	?attributes@W3CElement@@QBE?AVQXmlStreamAttributes@@XZ @ 152 NONAME ; class QXmlStreamAttributes W3CElement::attributes(void) const
+	?appPath@WebAppInfo@@QBE?AVQString@@XZ @ 153 NONAME ; class QString WebAppInfo::appPath(void) const
+	?count@ConfigXmlParser@@QBEHABVQString@@PAV2@@Z @ 154 NONAME ; int ConfigXmlParser::count(class QString const &, class QString *) const
+	??0ConfigXmlParser@@QAE@ABVQString@@@Z @ 155 NONAME ; ConfigXmlParser::ConfigXmlParser(class QString const &)
+	?installL@EmbedWidgetInstaller@@QAE?AW4WidgetInstallError@@VQString@@AAV3@@Z @ 156 NONAME ABSENT ; enum WidgetInstallError EmbedWidgetInstaller::installL(class QString, class QString &)
+	?nativeId@WebAppInfo@@QBE?AVQString@@XZ @ 157 NONAME ; class QString WebAppInfo::nativeId(void) const
+	?uninstall@WidgetManager@@QAE?AW4WidgetUninstallError@@ABVQString@@_N@Z @ 158 NONAME ; enum WidgetUninstallError WidgetManager::uninstall(class QString const &, bool)
+	??0WebAppInfo@@QAE@XZ @ 159 NONAME ; WebAppInfo::WebAppInfo(void)
+	?qt_metacall@WidgetManager@@UAEHW4Call@QMetaObject@@HPAPAX@Z @ 160 NONAME ; int WidgetManager::qt_metacall(enum QMetaObject::Call, int, void * *)
+	?registerApp@WebAppRegistry@@UAE_NABVQString@@000ABV?$QMap@VQString@@VQVariant@@@@0K0_NABV?$QSet@VQString@@@@00@Z @ 161 NONAME ; bool WebAppRegistry::registerApp(class QString const &, class QString const &, class QString const &, class QString const &, class QMap<class QString, class QVariant> const &, class QString const &, unsigned long, class QString const &, bool, class QSet<class QString> const &, class QString const &, class QString const &)
+	?getStaticMetaObject@EmbedWidgetInstaller@@SAABUQMetaObject@@XZ @ 162 NONAME ; struct QMetaObject const & EmbedWidgetInstaller::getStaticMetaObject(void)
+	??_EEmbedWidgetInstaller@@UAE@I@Z @ 163 NONAME ; EmbedWidgetInstaller::~EmbedWidgetInstaller(unsigned int)
+	?namespaceUri@W3CElement@@QAE?AVQString@@XZ @ 164 NONAME ; class QString W3CElement::namespaceUri(void)
+	?installedLocation@WidgetLinkResolver@@SA?BVQString@@XZ @ 165 NONAME ; class QString const WidgetLinkResolver::installedLocation(void)
+	?getElement@ConfigXmlParser@@QBEPBVW3CElement@@ABVQString@@H0@Z @ 166 NONAME ; class W3CElement const * ConfigXmlParser::getElement(class QString const &, int, class QString const &) const
+	?certificateAki@WebAppInfo@@QBE?AVQString@@XZ @ 167 NONAME ; class QString WebAppInfo::certificateAki(void) const
+	??_EW3CElement@@QAE@I@Z @ 168 NONAME ; W3CElement::~W3CElement(unsigned int)
+	?viewmodes@ConfigXmlParser@@QBE?AVQString@@XZ @ 169 NONAME ; class QString ConfigXmlParser::viewmodes(void) const
+	?installWidget@WidgetManager@@QAEHABVQString@@ABV?$QMap@VQString@@VQVariant@@@@@Z @ 170 NONAME ; int WidgetManager::installWidget(class QString const &, class QMap<class QString, class QVariant> const &)
+	??8WebAppInfo@@QBE_NABV0@@Z @ 171 NONAME ; bool WebAppInfo::operator==(class WebAppInfo const &) const
+	?getWidgetInstallPath@WidgetManager@@IAE?AVQString@@ABV2@@Z @ 172 NONAME ; class QString WidgetManager::getWidgetInstallPath(class QString const &)
+	?aborted@WidgetManager@@IAEXHW4WidgetErrorType@@@Z @ 173 NONAME ; void WidgetManager::aborted(int, enum WidgetErrorType)
+	?handleInteractiveRequest@WidgetManager@@QAEXHAAV?$QMap@W4WidgetPropertyType@@VQVariant@@@@@Z @ 174 NONAME ; void WidgetManager::handleInteractiveRequest(int, class QMap<enum WidgetPropertyType, class QVariant> &)
+	?setFile@ConfigXmlParser@@QAEXABVQString@@@Z @ 175 NONAME ; void ConfigXmlParser::setFile(class QString const &)
+	?presentOnDrive@WebAppRegistry@@UAEPAV?$QList@VWebAppInfo@@@@ABVQString@@@Z @ 176 NONAME ; class QList<class WebAppInfo> * WebAppRegistry::presentOnDrive(class QString const &)
+	?uniqueIdToWidgetId@WebAppRegistry@@UAE?AVQString@@ABV2@@Z @ 177 NONAME ; class QString WebAppRegistry::uniqueIdToWidgetId(class QString const &)
+	?widgetIdToUniqueIdList@WebAppRegistry@@UAE?AVQStringList@@ABVQString@@@Z @ 178 NONAME ; class QStringList WebAppRegistry::widgetIdToUniqueIdList(class QString const &)
+	?widgetIdToUniqueId@WebAppRegistry@@UAE?AVQString@@ABV2@@Z @ 179 NONAME ; class QString WebAppRegistry::widgetIdToUniqueId(class QString const &)
+	?notPresentOnDrive@WebAppRegistry@@UAEPAV?$QList@VWebAppInfo@@@@ABVQString@@@Z @ 180 NONAME ; class QList<class WebAppInfo> * WebAppRegistry::notPresentOnDrive(class QString const &)
+	?writeSisxWidgetList@WidgetManager@@QAEXAAV?$QHash@VQString@@I@@@Z @ 181 NONAME ; void WidgetManager::writeSisxWidgetList(class QHash<class QString, unsigned int> &)
+	?getWidgetFromCache@WidgetManager@@IAEPAVSuperWidget@@ABVQString@@@Z @ 182 NONAME ; class SuperWidget * WidgetManager::getWidgetFromCache(class QString const &)
+	?setInstallationAttributes@WidgetManager@@QAEXABV?$QFlags@W4InstallationAttribute@WAC@@@@@Z @ 183 NONAME ; void WidgetManager::setInstallationAttributes(class QFlags<enum WAC::InstallationAttribute> const &)
+	?setWidgetIntoCache@WidgetManager@@IAEXABVQString@@PAVSuperWidget@@@Z @ 184 NONAME ; void WidgetManager::setWidgetIntoCache(class QString const &, class SuperWidget *)
+	?removeWidgetFromCache@WidgetManager@@QAEXABVQString@@@Z @ 185 NONAME ; void WidgetManager::removeWidgetFromCache(class QString const &)
+	?installL@EmbedWidgetInstaller@@QAE?AW4WidgetInstallError@@AAVQString@@0@Z @ 186 NONAME ; enum WidgetInstallError EmbedWidgetInstaller::installL(class QString &, class QString &)
+	?ProcessDied@EmbedWidgetInstaller@@QAEXAAH@Z @ 187 NONAME ; void EmbedWidgetInstaller::ProcessDied(int &)
+	?uninstallL@EmbedWidgetInstaller@@QAE?AW4WidgetUninstallError@@AAVQString@@@Z @ 188 NONAME ; enum WidgetUninstallError EmbedWidgetInstaller::uninstallL(class QString &)
+

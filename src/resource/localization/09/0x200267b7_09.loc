@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Haluatko poistaa widgetin %U[71]? "
+#define qtn_uninstall_preparing "Poistetaan"

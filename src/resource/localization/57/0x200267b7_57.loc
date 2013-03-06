@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "האם ברצונך להסיר את '%U[71']? "
+#define qtn_uninstall_preparing "מסיר"

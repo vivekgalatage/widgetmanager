@@ -1,0 +1,188 @@
+EXPORTS
+	_ZN10W3CElement12addAttributeERK7QStringS2_ @ 1 NONAME
+	_ZN10W3CElement13setAttributesERK20QXmlStreamAttributes @ 2 NONAME
+	_ZN10W3CElement15setnamespaceUriERK7QString @ 3 NONAME
+	_ZN10W3CElement7setTextERK7QString @ 4 NONAME
+	_ZN10W3CElementC1ERK7QString @ 5 NONAME
+	_ZN10W3CElementC1Ev @ 6 NONAME
+	_ZN10W3CElementC2ERK7QString @ 7 NONAME
+	_ZN10W3CElementC2Ev @ 8 NONAME
+	_ZN11SuperWidget13getWidgetTypeERK7QString @ 9 NONAME
+	_ZN11SuperWidget18getWidgetPathPartsER11QStringListRK7QString @ 10 NONAME
+	_ZN13WidgetManager11installSisxERK7QStringS2_ @ 11 NONAME
+	_ZN13WidgetManager11qt_metacallEN11QMetaObject4CallEiPPv @ 12 NONAME
+	_ZN13WidgetManager11qt_metacastEPKc @ 13 NONAME
+	_ZN13WidgetManager12asyncInstallERK7QStringbS2_b @ 14 NONAME
+	_ZN13WidgetManager12isRegisteredERK7QString @ 15 NONAME
+	_ZN13WidgetManager12launcherPathERK7QString @ 16 NONAME
+	_ZN13WidgetManager13getPropertiesERK7QString @ 17 NONAME
+	_ZN13WidgetManager13getPropertiesEv @ 18 NONAME
+	_ZN13WidgetManager13handleAbortedEi15WidgetErrorType @ 19 NONAME
+	_ZN13WidgetManager13installWidgetERK7QStringRK4QMapIS0_8QVariantE @ 20 NONAME
+	_ZN13WidgetManager13uninstallSisxERK7QStringb @ 21 NONAME
+	_ZN13WidgetManager14getContentTypeER7QString @ 22 NONAME
+	_ZN13WidgetManager14handleProgressEii19WidgetOperationType @ 23 NONAME
+	_ZN13WidgetManager14setContentTypeERK7QString @ 24 NONAME
+	_ZN13WidgetManager14sisxWidgetFileEv @ 25 NONAME
+	_ZN13WidgetManager15handleCompletedEi @ 26 NONAME
+	_ZN13WidgetManager15installCompleteE7QString18WidgetInstallError @ 27 NONAME
+	_ZN13WidgetManager15installProgressEi @ 28 NONAME
+	_ZN13WidgetManager16staticMetaObjectE @ 29 NONAME DATA 16
+	_ZN13WidgetManager17installationErrorE18WidgetInstallError @ 30 NONAME
+	_ZN13WidgetManager17isValidWidgetTypeERK7QString @ 31 NONAME
+	_ZN13WidgetManager17isValidWidgetTypeERK7QStringS2_ @ 32 NONAME
+	_ZN13WidgetManager17queryConfirmationEv @ 33 NONAME
+	_ZN13WidgetManager17uninstallProgressEi @ 34 NONAME
+	_ZN13WidgetManager18cancelInstallationEv @ 35 NONAME
+	_ZN13WidgetManager18getWidgetFromCacheE7QString @ 36 NONAME ABSENT
+	_ZN13WidgetManager18interactiveRequestEiR4QMapI18WidgetPropertyType8QVariantE @ 37 NONAME
+	_ZN13WidgetManager18readSisxWidgetListEv @ 38 NONAME
+	_ZN13WidgetManager18setWidgetIntoCacheE7QStringP11SuperWidget @ 39 NONAME ABSENT
+	_ZN13WidgetManager19getStaticMetaObjectEv @ 40 NONAME
+	_ZN13WidgetManager19installationSucceedEv @ 41 NONAME
+	_ZN13WidgetManager19writeSisxWidgetListE5QHashI7QStringjE @ 42 NONAME ABSENT
+	_ZN13WidgetManager20backupRestoreInstallERK7QStringb @ 43 NONAME
+	_ZN13WidgetManager20getWidgetInstallPathERK7QString @ 44 NONAME
+	_ZN13WidgetManager21installationCancelledEv @ 45 NONAME
+	_ZN13WidgetManager21removeWidgetFromCacheE7QString @ 46 NONAME ABSENT
+	_ZN13WidgetManager23tryContinueInstallationEv @ 47 NONAME
+	_ZN13WidgetManager24handleInteractiveRequestEiR4QMapI18WidgetPropertyType8QVariantE @ 48 NONAME
+	_ZN13WidgetManager25setInstallationAttributesE6QFlagsIN3WAC21InstallationAttributeEE @ 49 NONAME ABSENT
+	_ZN13WidgetManager28aboutToReplaceExistingWidgetE7QString @ 50 NONAME
+	_ZN13WidgetManager28queryInstallationDestinationEmb @ 51 NONAME
+	_ZN13WidgetManager29aboutToInstallUntrustedWidgetE18WidgetInstallError @ 52 NONAME
+	_ZN13WidgetManager32aboutToInstallWidgetWithFeaturesE5QListI7QStringE @ 53 NONAME
+	_ZN13WidgetManager6cancelEi @ 54 NONAME
+	_ZN13WidgetManager7abortedEi15WidgetErrorType @ 55 NONAME
+	_ZN13WidgetManager7installERK7QStringRS0_S2_S2_bbS2_ @ 56 NONAME
+	_ZN13WidgetManager7installERK7QStringRS0_bbS2_ @ 57 NONAME
+	_ZN13WidgetManager8progressEii19WidgetOperationType @ 58 NONAME
+	_ZN13WidgetManager9completedEi @ 59 NONAME
+	_ZN13WidgetManager9createDirERK7QString @ 60 NONAME
+	_ZN13WidgetManager9uninstallERK7QStringb @ 61 NONAME
+	_ZN13WidgetManagerC1EP7QWidgetb @ 62 NONAME
+	_ZN13WidgetManagerC2EP7QWidgetb @ 63 NONAME
+	_ZN13WidgetManagerD0Ev @ 64 NONAME
+	_ZN13WidgetManagerD1Ev @ 65 NONAME
+	_ZN13WidgetManagerD2Ev @ 66 NONAME
+	_ZN14WebAppRegistry10registeredEv @ 67 NONAME
+	_ZN14WebAppRegistry10unregisterERK7QStringb @ 68 NONAME
+	_ZN14WebAppRegistry11registerAppERK7QStringS2_S2_S2_RK4QMapIS0_8QVariantES2_mS2_bRK4QSetIS0_ES2_S2_ @ 69 NONAME
+	_ZN14WebAppRegistry11setIsActiveERK7QStringb @ 70 NONAME
+	_ZN14WebAppRegistry11setNativeIdERK7QStringS2_ @ 71 NONAME
+	_ZN14WebAppRegistry12getAttributeERK7QStringS2_RK8QVariant @ 72 NONAME
+	_ZN14WebAppRegistry12isRegisteredERK7QStringR10WebAppInfo @ 73 NONAME
+	_ZN14WebAppRegistry12setIsPresentERK7QStringb @ 74 NONAME
+	_ZN14WebAppRegistry13setIsFullViewERK7QStringb @ 75 NONAME
+	_ZN14WebAppRegistry13setIsMiniViewERK7QStringb @ 76 NONAME
+	_ZN14WebAppRegistry14presentOnDriveE7QString @ 77 NONAME ABSENT
+	_ZN14WebAppRegistry15appIdTonativeIdERK7QString @ 78 NONAME
+	_ZN14WebAppRegistry15nativeIdToAppIdERK7QString @ 79 NONAME
+	_ZN14WebAppRegistry16nextAvailableUidEv @ 80 NONAME
+	_ZN14WebAppRegistry16setWebAppVersionERK7QStringRK8QVariantS2_ @ 81 NONAME
+	_ZN14WebAppRegistry17notPresentOnDriveE7QString @ 82 NONAME ABSENT
+	_ZN14WebAppRegistry17setCertificateAkiERK7QStringS2_ @ 83 NONAME
+	_ZN14WebAppRegistry18setCapabilityCheckERK7QStringb @ 84 NONAME
+	_ZN14WebAppRegistry18setWebAppAttributeERK7QStringS2_RK8QVariant @ 85 NONAME
+	_ZN14WebAppRegistry18uniqueIdToWidgetIdE7QString @ 86 NONAME ABSENT
+	_ZN14WebAppRegistry18widgetIdToUniqueIdE7QString @ 87 NONAME ABSENT
+	_ZN14WebAppRegistry20isWidgetIdRegisteredERK7QString @ 88 NONAME
+	_ZN14WebAppRegistry22widgetIdToUniqueIdListE7QString @ 89 NONAME ABSENT
+	_ZN14WebAppRegistry6setUidERK7QStringi @ 90 NONAME
+	_ZN14WebAppRegistry7presentEb @ 91 NONAME
+	_ZN14WebAppRegistry8instanceEv @ 92 NONAME
+	_ZN14WebAppRegistryC1Ev @ 93 NONAME
+	_ZN14WebAppRegistryC2Ev @ 94 NONAME
+	_ZN14WebAppRegistryD0Ev @ 95 NONAME
+	_ZN14WebAppRegistryD1Ev @ 96 NONAME
+	_ZN14WebAppRegistryD2Ev @ 97 NONAME
+	_ZN15ConfigXmlParser11setContentsERK7QString @ 98 NONAME
+	_ZN15ConfigXmlParser12namespaceUriEv @ 99 NONAME
+	_ZN15ConfigXmlParser2idEv @ 100 NONAME
+	_ZN15ConfigXmlParser7allKeysEv @ 101 NONAME
+	_ZN15ConfigXmlParser7setFileERK7QString @ 102 NONAME
+	_ZN15ConfigXmlParser7versionEv @ 103 NONAME
+	_ZN15ConfigXmlParser9parseFileEv @ 104 NONAME
+	_ZN15ConfigXmlParserC1ERK7QString @ 105 NONAME
+	_ZN15ConfigXmlParserC2ERK7QString @ 106 NONAME
+	_ZN15ConfigXmlParserD1Ev @ 107 NONAME
+	_ZN15ConfigXmlParserD2Ev @ 108 NONAME
+	_ZN15WebAppLocalizer13findStartFileERK7QStringS2_ @ 109 NONAME
+	_ZN15WebAppLocalizer16getLocalizedFileERK7QStringbS2_ @ 110 NONAME
+	_ZN15WebAppLocalizer16platformLanguageEv @ 111 NONAME
+	_ZN15WebAppLocalizer19s_widgetExistsCacheE @ 112 NONAME DATA 4
+	_ZN15WebAppLocalizerC1Ev @ 113 NONAME
+	_ZN15WebAppLocalizerC2Ev @ 114 NONAME
+	_ZN15WebAppLocalizerD1Ev @ 115 NONAME
+	_ZN15WebAppLocalizerD2Ev @ 116 NONAME
+	_ZN18WidgetLinkResolver11resolveLinkERK7QStringS2_ @ 117 NONAME
+	_ZN18WidgetLinkResolver17installedLocationEv @ 118 NONAME
+	_ZN18WidgetLinkResolver19dataStorageLocationEv @ 119 NONAME
+	_ZN18WidgetLinkResolver20preInstalledLocationEv @ 120 NONAME
+	_ZN20EmbedWidgetInstaller10uninstallLE7QString @ 121 NONAME ABSENT
+	_ZN20EmbedWidgetInstaller11ProcessDiedEi @ 122 NONAME ABSENT
+	_ZN20EmbedWidgetInstaller11qt_metacallEN11QMetaObject4CallEiPPv @ 123 NONAME
+	_ZN20EmbedWidgetInstaller11qt_metacastEPKc @ 124 NONAME
+	_ZN20EmbedWidgetInstaller16staticMetaObjectE @ 125 NONAME DATA 16
+	_ZN20EmbedWidgetInstaller19getStaticMetaObjectEv @ 126 NONAME
+	_ZN20EmbedWidgetInstaller8installLE7QStringRS0_ @ 127 NONAME ABSENT
+	_ZN20EmbedWidgetInstallerC1Ev @ 128 NONAME ABSENT
+	_ZN20EmbedWidgetInstallerC2Ev @ 129 NONAME
+	_ZN20EmbedWidgetInstallerD0Ev @ 130 NONAME
+	_ZN20EmbedWidgetInstallerD1Ev @ 131 NONAME
+	_ZN20EmbedWidgetInstallerD2Ev @ 132 NONAME
+	_ZNK10W3CElement14attributeValueERK7QString @ 133 NONAME
+	_ZNK10WebAppInfo10attributesEv @ 134 NONAME
+	_ZNK10WebAppInfo10getElementERK7QStringPK10W3CElementS2_ @ 135 NONAME
+	_ZNK10WebAppInfo10widgetTypeEv @ 136 NONAME
+	_ZNK10WebAppInfo14certificateAkiEv @ 137 NONAME
+	_ZNK10WebAppInfo15capabilityCheckEv @ 138 NONAME
+	_ZNK10WebAppInfo3uidEv @ 139 NONAME
+	_ZNK10WebAppInfo3urlEv @ 140 NONAME
+	_ZNK10WebAppInfo4nameEv @ 141 NONAME
+	_ZNK10WebAppInfo4typeEv @ 142 NONAME
+	_ZNK10WebAppInfo5appIdEv @ 143 NONAME
+	_ZNK10WebAppInfo5valueERK7QString @ 144 NONAME
+	_ZNK10WebAppInfo7appPathEv @ 145 NONAME
+	_ZNK10WebAppInfo8appTitleEv @ 146 NONAME
+	_ZNK10WebAppInfo8dataPathEv @ 147 NONAME
+	_ZNK10WebAppInfo8iconPathEv @ 148 NONAME
+	_ZNK10WebAppInfo8nativeIdEv @ 149 NONAME
+	_ZNK10WebAppInfo9isPresentEv @ 150 NONAME
+	_ZNK10WebAppInfo9startPathEv @ 151 NONAME
+	_ZNK10WebAppInfoeqERKS_ @ 152 NONAME
+	_ZNK13WidgetManager10metaObjectEv @ 153 NONAME
+	_ZNK14WebAppRegistry12isRegisteredERK7QString @ 154 NONAME
+	_ZNK15ConfigXmlParser10getElementERK7QStringS2_ @ 155 NONAME
+	_ZNK15ConfigXmlParser10getElementERK7QStringiS2_ @ 156 NONAME
+	_ZNK15ConfigXmlParser10widgetTypeEv @ 157 NONAME
+	_ZNK15ConfigXmlParser5countERK7QStringPS0_ @ 158 NONAME
+	_ZNK15ConfigXmlParser5countEv @ 159 NONAME
+	_ZNK15ConfigXmlParser5widthEv @ 160 NONAME
+	_ZNK15ConfigXmlParser6heightEv @ 161 NONAME
+	_ZNK15ConfigXmlParser8containsERK7QStringPS0_ @ 162 NONAME
+	_ZNK15ConfigXmlParser8languageEv @ 163 NONAME
+	_ZNK15ConfigXmlParser9languagesEv @ 164 NONAME
+	_ZNK15ConfigXmlParser9viewmodesEv @ 165 NONAME
+	_ZNK20EmbedWidgetInstaller10metaObjectEv @ 166 NONAME
+	_ZTI13WidgetManager @ 167 NONAME
+	_ZTI14WebAppRegistry @ 168 NONAME
+	_ZTI20EmbedWidgetInstaller @ 169 NONAME
+	_ZTV13WidgetManager @ 170 NONAME
+	_ZTV14WebAppRegistry @ 171 NONAME
+	_ZTV20EmbedWidgetInstaller @ 172 NONAME
+	_ZThn8_N20EmbedWidgetInstaller11ProcessDiedEi @ 173 NONAME ABSENT
+	_ZN14WebAppRegistry14presentOnDriveERK7QString @ 174 NONAME
+	_ZN14WebAppRegistry17notPresentOnDriveERK7QString @ 175 NONAME
+	_ZN14WebAppRegistry18uniqueIdToWidgetIdERK7QString @ 176 NONAME
+	_ZN14WebAppRegistry18widgetIdToUniqueIdERK7QString @ 177 NONAME
+	_ZN14WebAppRegistry22widgetIdToUniqueIdListERK7QString @ 178 NONAME
+	_ZN13WidgetManager18getWidgetFromCacheERK7QString @ 179 NONAME
+	_ZN13WidgetManager18setWidgetIntoCacheERK7QStringP11SuperWidget @ 180 NONAME
+	_ZN13WidgetManager19writeSisxWidgetListER5QHashI7QStringjE @ 181 NONAME
+	_ZN13WidgetManager21removeWidgetFromCacheERK7QString @ 182 NONAME
+	_ZN13WidgetManager25setInstallationAttributesERK6QFlagsIN3WAC21InstallationAttributeEE @ 183 NONAME
+	_ZN20EmbedWidgetInstaller10uninstallLER7QString @ 184 NONAME
+	_ZN20EmbedWidgetInstaller11ProcessDiedERi @ 185 NONAME
+	_ZN20EmbedWidgetInstaller8installLER7QStringS1_ @ 186 NONAME
+

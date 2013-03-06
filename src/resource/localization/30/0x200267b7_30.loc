@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "您是否要移除\"%U[47]\"？ "
+#define qtn_uninstall_preparing "正在移除"

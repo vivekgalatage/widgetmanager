@@ -1,0 +1,11 @@
+EXPORTS
+	?getAttributeL@RWACRegistryClientSession@@QAE?AVQVariant@@ABVQString@@0ABV2@@Z @ 1 NONAME ; class QVariant RWACRegistryClientSession::getAttributeL(class QString const &, class QString const &, class QVariant const &)
+	?Disconnect@RWACRegistryClientSession@@QAEHXZ @ 2 NONAME ; int RWACRegistryClientSession::Disconnect(void)
+	?nativeIdToAppIdL@RWACRegistryClientSession@@QAE?AVQString@@ABV2@@Z @ 3 NONAME ; class QString RWACRegistryClientSession::nativeIdToAppIdL(class QString const &)
+	?Version@RWACRegistryClientSession@@QBE?AVTVersion@@XZ @ 4 NONAME ; class TVersion RWACRegistryClientSession::Version(void) const
+	?setAttributeL@RWACRegistryClientSession@@QAE_NABVQString@@0ABVQVariant@@@Z @ 5 NONAME ; bool RWACRegistryClientSession::setAttributeL(class QString const &, class QString const &, class QVariant const &)
+	??0RWACRegistryClientSession@@QAE@XZ @ 6 NONAME ; RWACRegistryClientSession::RWACRegistryClientSession(void)
+	?RegisterWidgetL@RWACRegistryClientSession@@QAE_NABVQString@@000ABV?$QMap@VQString@@VQVariant@@@@0K0@Z @ 7 NONAME ; bool RWACRegistryClientSession::RegisterWidgetL(class QString const &, class QString const &, class QString const &, class QString const &, class QMap<class QString, class QVariant> const &, class QString const &, unsigned long, class QString const &)
+	?Connect@RWACRegistryClientSession@@QAEHXZ @ 8 NONAME ; int RWACRegistryClientSession::Connect(void)
+	?DeRegisterWidgetL@RWACRegistryClientSession@@QAE_NABVQString@@_N@Z @ 9 NONAME ; bool RWACRegistryClientSession::DeRegisterWidgetL(class QString const &, bool)
+

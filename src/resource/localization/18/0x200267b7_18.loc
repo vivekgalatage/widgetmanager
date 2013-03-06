@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Wilt u '%U[80]' verwijderen? "
+#define qtn_uninstall_preparing "Verwijderen"

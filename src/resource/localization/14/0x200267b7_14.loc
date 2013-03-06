@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "'%U[79]' widgetını kaldırmak ister misiniz? "
+#define qtn_uninstall_preparing "Kaldırılıyor"

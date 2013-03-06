@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Kas vidin %U[81] eemaldada? "
+#define qtn_uninstall_preparing "Eemaldamine"

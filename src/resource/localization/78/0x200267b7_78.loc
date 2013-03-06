@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Doriți să eliminați \"%U[89]\"? "
+#define qtn_uninstall_preparing "Eliminare în curs"

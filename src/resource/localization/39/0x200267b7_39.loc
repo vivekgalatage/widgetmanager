@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Gusto mo bang alisin ang '%U[71']? "
+#define qtn_uninstall_preparing "Nag-aalis"

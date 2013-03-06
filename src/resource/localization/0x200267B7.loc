@@ -1,0 +1,157 @@
+/*
+ * Copyright (c) 2010 Nokia Corporation and/or its subsidiary(-ies).
+ *
+ * This file is part of Qt Web Runtime.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * version 2.1 as published by the Free Software Foundation.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ */
+#ifndef _0x200267B7_H
+#define _0x200267B7_H
+
+#ifdef LANGUAGE_sc
+    #include <01/0x200267B7_01.loc>
+#elif LANGUAGE_01
+    #include <01/0x200267B7_01.loc>
+#elif LANGUAGE_02
+    #include <02/0x200267B7_02.loc>
+#elif LANGUAGE_03
+    #include <03/0x200267B7_03.loc>
+#elif LANGUAGE_04
+    #include <04/0x200267B7_04.loc>
+#elif LANGUAGE_05
+    #include <05/0x200267B7_05.loc>
+#elif LANGUAGE_06
+    #include <06/0x200267B7_06.loc>
+#elif LANGUAGE_07
+    #include <07/0x200267B7_07.loc>
+#elif LANGUAGE_08
+    #include <08/0x200267B7_08.loc>
+#elif LANGUAGE_09
+    #include <09/0x200267B7_09.loc>
+#elif LANGUAGE_10
+    #include <10/0x200267B7_10.loc>
+#elif LANGUAGE_13
+    #include <13/0x200267B7_13.loc>
+#elif LANGUAGE_14
+    #include <14/0x200267B7_14.loc>
+#elif LANGUAGE_15
+    #include <15/0x200267B7_15.loc>
+#elif LANGUAGE_16
+    #include <16/0x200267B7_16.loc>
+#elif LANGUAGE_17
+    #include <17/0x200267B7_17.loc>
+#elif LANGUAGE_18
+    #include <18/0x200267B7_18.loc>
+#elif LANGUAGE_25
+    #include <25/0x200267B7_25.loc>
+#elif LANGUAGE_26
+    #include <26/0x200267B7_26.loc>
+#elif LANGUAGE_27
+    #include <27/0x200267B7_27.loc>
+#elif LANGUAGE_28
+    #include <28/0x200267B7_28.loc>
+#elif LANGUAGE_29
+    #include <29/0x200267B7_29.loc>
+#elif LANGUAGE_30
+    #include <30/0x200267B7_30.loc>
+#elif LANGUAGE_31
+    #include <31/0x200267B7_31.loc>
+#elif LANGUAGE_32
+    #include <32/0x200267B7_32.loc>
+#elif LANGUAGE_33
+    #include <33/0x200267B7_33.loc>
+#elif LANGUAGE_37
+    #include <37/0x200267B7_37.loc>
+#elif LANGUAGE_39
+    #include <39/0x200267B7_39.loc>
+#elif LANGUAGE_42
+    #include <42/0x200267B7_42.loc>
+#elif LANGUAGE_44
+    #include <44/0x200267B7_44.loc>
+#elif LANGUAGE_45
+    #include <45/0x200267B7_45.loc>
+#elif LANGUAGE_49
+    #include <49/0x200267B7_49.loc>
+#elif LANGUAGE_50
+    #include <50/0x200267B7_50.loc>
+#elif LANGUAGE_51
+    #include <51/0x200267B7_51.loc>
+#elif LANGUAGE_54
+    #include <54/0x200267B7_54.loc>
+#elif LANGUAGE_57
+    #include <57/0x200267B7_57.loc>
+#elif LANGUAGE_58
+    #include <58/0x200267B7_58.loc>
+#elif LANGUAGE_59
+    #include <59/0x200267B7_59.loc>
+#elif LANGUAGE_63
+    #include <63/0x200267B7_63.loc>
+#elif LANGUAGE_65
+    #include <65/0x200267B7_65.loc>
+#elif LANGUAGE_67
+    #include <67/0x200267B7_67.loc>
+#elif LANGUAGE_68
+    #include <68/0x200267B7_68.loc>
+#elif LANGUAGE_70
+    #include <70/0x200267B7_70.loc>
+#elif LANGUAGE_72
+    #include <72/0x200267B7_72.loc>
+#elif LANGUAGE_76
+    #include <76/0x200267B7_76.loc>
+#elif LANGUAGE_78
+    #include <78/0x200267B7_78.loc>
+#elif LANGUAGE_79
+    #include <79/0x200267B7_79.loc>
+#elif LANGUAGE_83
+    #include <83/0x200267B7_83.loc>
+#elif LANGUAGE_93
+    #include <93/0x200267B7_93.loc>
+#elif LANGUAGE_94
+    #include <94/0x200267B7_94.loc>
+#elif LANGUAGE_96
+    #include <96/0x200267B7_96.loc>
+#elif LANGUAGE_102
+    #include <102/0x200267B7_102.loc>
+#elif LANGUAGE_103
+    #include <103/0x200267B7_103.loc>
+#elif LANGUAGE_129
+    #include <129/0x200267B7_129.loc>
+#elif LANGUAGE_157
+    #include <157/0x200267B7_157.loc>
+#elif LANGUAGE_158
+    #include <158/0x200267B7_158.loc>
+#elif LANGUAGE_159
+    #include <159/0x200267B7_159.loc>
+#elif LANGUAGE_160
+    #include <160/0x200267B7_160.loc>
+#elif LANGUAGE_161
+    #include <161/0x200267B7_161.loc>
+#elif LANGUAGE_230
+    #include <230/0x200267B7_230.loc>
+#elif LANGUAGE_326
+    #include <326/0x200267B7_326.loc>
+#elif LANGUAGE_327
+    #include <327/0x200267B7_327.loc>
+#elif LANGUAGE_14346
+    #include <14346/0x200267B7_14346.loc>
+#elif LANGUAGE_14387
+    #include <14387/0x200267B7_14387.loc>
+#elif LANGUAGE_14412
+    #include <14412/0x200267B7_14412.loc>
+#elif LANGUAGE_14419
+    #include <14419/0x200267B7_14419.loc>
+#endif
+
+#endif //_0x200267B7_H

@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "هل تريد إزالة '%U[91]'؟"
+#define qtn_uninstall_preparing "جار الإزالة"

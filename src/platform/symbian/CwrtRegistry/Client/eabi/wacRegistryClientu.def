@@ -1,0 +1,12 @@
+EXPORTS
+	_ZN25RWACRegistryClientSession10DisconnectEv @ 1 NONAME
+	_ZN25RWACRegistryClientSession13getAttributeLERK7QStringS2_RK8QVariant @ 2 NONAME
+	_ZN25RWACRegistryClientSession13setAttributeLERK7QStringS2_RK8QVariant @ 3 NONAME
+	_ZN25RWACRegistryClientSession15RegisterWidgetLERK7QStringS2_S2_S2_RK4QMapIS0_8QVariantES2_mS2_ @ 4 NONAME
+	_ZN25RWACRegistryClientSession16nativeIdToAppIdLERK7QString @ 5 NONAME
+	_ZN25RWACRegistryClientSession17DeRegisterWidgetLERK7QStringb @ 6 NONAME
+	_ZN25RWACRegistryClientSession7ConnectEv @ 7 NONAME
+	_ZN25RWACRegistryClientSessionC1Ev @ 8 NONAME
+	_ZN25RWACRegistryClientSessionC2Ev @ 9 NONAME
+	_ZNK25RWACRegistryClientSession7VersionEv @ 10 NONAME
+

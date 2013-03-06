@@ -1,0 +1,44 @@
+/*
+ * Copyright (c) 2010 Nokia Corporation and/or its subsidiary(-ies).
+ *
+ * This file is part of Qt Web Runtime.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * version 2.1 as published by the Free Software Foundation.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ */
+
+// RESOURCE IDENTIFIER
+NAME    WDMG  // 4 letter resource identifier
+
+// INCLUDES
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <avkon.loc>
+#include "./resource/localization/0x200267B7.loc"
+
+// RESOURCE DEFINITIONS
+
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF { buf = ""; }
+
+// ================== STRING RESOURCES =======================================
+
+//Information Messages for Uninstall
+RESOURCE TBUF r_uninstall_confirm{ buf = qtn_uninstall_confirm; }
+RESOURCE TBUF r_uninstall_preparing{ buf = qtn_uninstall_preparing; }
+
+// End of File

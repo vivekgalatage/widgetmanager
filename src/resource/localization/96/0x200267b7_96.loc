@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Bạn có muốn gỡ bỏ '%U[85]' không? "
+#define qtn_uninstall_preparing "Đang gỡ bỏ"

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+
+Copyright (c) 2010 Nokia Corporation and/or its subsidiary(-ies).
+
+This file is part of Qt Web Runtime.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public License
+version 2.1 as published by the Free Software Foundation.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+
+-->
+
+<mapping>
+    <super-feature name="nokia://device/all">
+        <feature-sets>
+            <feature-set>nokia://device/contact</feature-set>
+            <feature-set>nokia://device/calendar</feature-set>
+            <feature-set>nokia://device/commlog</feature-set>
+            <feature-set>nokia://device/filesystem</feature-set>
+            <feature-set>nokia://device/landmark</feature-set>
+            <feature-set>nokia://device/camera</feature-set>
+            <feature-set>nokia://device/geolocation</feature-set>
+            <feature-set>nokia://device/message</feature-set>
+            <feature-set>nokia://device/media</feature-set>
+            <feature-set>nokia://device/sensor</feature-set>
+            <feature-set>nokia://device/devicestatus</feature-set>
+            <feature-set>nokia://device/telephony</feature-set>
+            <feature-set>nokia://device/audioplayer</feature-set>
+            <feature-set>nokia://device/videoplayer</feature-set>
+            <feature-set>nokia://device/test</feature-set>
+        </feature-sets>
+    </super-feature>
+        <feature-set> <!-- test capability for OVI widgets -->
+        <featuresetname>nokia://ovi.nokia.com</featuresetname>
+                <service>OviStore</service>
+                <capabilities>ovi</capabilities>
+        </feature-set>
+        
+        
+        <feature-set> <!--  Security Test purpose features. -->
+        	<featuresetname>nokia://device/test</featuresetname>
+        	<featureFile>sectest.js</featureFile>    
+        	<service>test</service>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.one</featurename>
+        		<promptname>wink</promptname>
+        		<capabilities>test.one</capabilities>
+        	</feature>
+        	
+         <feature>
+        		<featurename>nokia://device/test.two</featurename>
+        		<promptname>sayHi</promptname>
+        		<capabilities>test.two</capabilities>
+        	</feature>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.three</featurename>
+        		<promptname>Mimic</promptname>
+        		<capabilities>test.three</capabilities>
+        	</feature>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.four</featurename>
+        		<promptname>saySomething</promptname>
+        		<capabilities>test.four</capabilities>
+        	</feature>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.five</featurename>
+        		<promptname>callMeLater</promptname>
+        		<capabilities>test.five</capabilities>
+        	</feature>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.six</featurename>
+        		<promptname>remindMeLater</promptname>
+        		<capabilities>test.six</capabilities>
+        	</feature>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.seven</featurename>
+        		<promptname>startAnnoying</promptname>
+        		<capabilities>test.seven</capabilities>
+        	</feature>
+        	
+        	<feature>
+        		<featurename>nokia://device/test.eight</featurename>
+        		<promptname>startBlabbering</promptname>
+        		<capabilities>test.eight</capabilities>
+        	</feature>
+        </feature-set>
+        
+    <feature-set>
+        <featuresetname>nokia://device/contact</featuresetname>
+        <service>Contact</service>
+        <!--capabilities>pim.contact.read,pim.contact.write</capabilities--> <!--optional -->
+        <!-- if required can specify features inside -->
+        <feature>
+            <featurename>nokia://device/contact.read</featurename>
+            <capabilities>pim.contact.read</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/contact.write</featurename>
+            <capabilities>pim.contact.write</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/calendar</featuresetname>
+        <service>Calendar</service>
+        <feature>
+            <featurename>nokia://device/calendar.read</featurename>
+            <capabilities>pim.event.read</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/calendar.write</featurename>
+            <capabilities>pim.event.write</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/devicestatus</featuresetname>
+        <service>Sysinfo</service>
+        <feature>
+            <featurename>nokia://device/devicestatus.get.general</featurename>
+            <capabilities>devicestatus.general.get</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/devicestatus.set.general</featurename>
+            <capabilities>devicestatus.general.set</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+	<featuresetname>nokia://device/filesystem</featuresetname>
+	<service>Filesystem</service>
+    	<feature>
+        	<featurename>nokia://device/filesystemfullaccess</featurename>
+        	<capabilities>io.file.unrestricted</capabilities>
+    	</feature>
+    	<feature>
+        	<featurename>nokia://device/filesystemrestrictedaccess</featurename>
+        	<capabilities>io.file.restricted</capabilities>
+    	</feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/geolocation</featuresetname>
+        <service>Location</service>
+        <feature>
+            <featurename>nokia://device/geolocation.position</featurename>
+            <capabilities>location.position</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/media</featuresetname>
+        <service>Media</service>
+        <feature>
+            <featurename>nokia://device/media.read</featurename>
+            <capabilities>media.read</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/media.write</featurename>
+            <capabilities>media.write</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/message</featuresetname>
+        <service>Messaging</service>
+        <feature>
+            <featurename>nokia://device/message.starteditor</featurename>
+            <capabilities>message.starteditor</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/message.read</featurename>
+            <capabilities>message.read</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/message.write</featurename>
+            <capabilities>message.write</capabilities>
+        </feature>
+        <!-- sms, mms and email to be distinguished?-->
+        <feature>
+            <featurename>nokia://device/message.send</featurename>
+            <capabilities>message.send</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/sensor</featuresetname>
+        <service>Sensor</service>
+        <!-- different sensor channels to be distinguished?-->
+        <feature>
+            <featurename>nokia://device/sensor.get</featurename>
+            <capabilities>sensor.general.get</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/landmark</featuresetname>
+        <service>Landmark</service>
+        <feature>
+            <featurename>nokia://device/landmark.read</featurename>
+            <capabilities>landmark.read</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/landmark.write</featurename>
+            <capabilities>landmark.write</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/camera</featuresetname>
+        <service>Camera</service>
+        <feature>
+            <featurename>nokia://device/camera.readproperties</featurename>
+            <capabilities>camera.readproperties</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/camera.start</featurename>
+            <capabilities>camera.start</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/camera.capture</featurename>
+            <capabilities>camera.capture</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/camera.record</featurename>
+            <capabilities>camera.record</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/commlog</featuresetname>
+        <service>Communication Logs</service>
+        <feature>
+            <featurename>nokia://device/commlog.get</featurename>
+            <capabilities>commlog.get</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/commlog.delete</featurename>
+            <capabilities>commlog.delete</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/telephony</featuresetname>
+        <service>Telephony</service>
+        <feature>
+            <featurename>nokia://device/telephony.voicecall</featurename>
+            <capabilities>telephony.voicecall</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/audioplayer</featuresetname>
+        <service>Audioplayer</service>
+        <feature>
+            <featurename>nokia://device/audioplayer.openuri</featurename>
+            <capabilities>player.audio.open</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/audioplayer.control</featurename>
+            <capabilities>player.audio.control</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set>
+        <featuresetname>nokia://device/videoplayer</featuresetname>
+        <service>Videoplayer</service>
+        <feature>
+            <featurename>nokia://device/videoplayer.openuri</featurename>
+            <capabilities>player.video.open</capabilities>
+        </feature>
+        <feature>
+            <featurename>nokia://device/videoplayer.control</featurename>
+            <capabilities>player.video.control</capabilities>
+        </feature>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/pim</featuresetname>
+        <service>Contact,Calendar</service>
+        <capabilities>pim.contact.read,pim.contact.write,pim.event.read,pim.event.write</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/addressbookitem</featuresetname>
+        <service>Contact</service>
+        <capabilities>pim.contact.read,pim.contact.write</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/calendaritem</featuresetname>
+        <service>Calendar</service>
+        <capabilities>pim.event.write</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/eventrecurrencetypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/device</featuresetname>
+        <service>Sysinfo,Location,Filesystem,Sensor,Application Manager</service>
+        <capabilities>devicestatus.general.set,io.file.restricted,ApplicationManagement.Launch,sensor.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/accountinfo</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.5/applicationtypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/deviceinfo</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/file</featuresetname>
+        <service>Filesystem</service>
+        <capabilities>io.file.restricted</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/positioninfo</featuresetname>
+        <service>Location</service>
+        <capabilities>location.position</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/datanetworkinfo</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.5/datanetworkconnectiontypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/devicestateinfo</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get,location.position</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/config</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/accelerometerinfo</featuresetname>
+        <service>Sensor</service>
+        <capabilities>sensor.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/powerinfo</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/radioinfo</featuresetname>
+        <service>Sysinfo</service>
+        <capabilities>devicestatus.general.get</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.5/radiosignalsourcetypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/messaging</featuresetname>
+        <service>Messaging</service>
+        <capabilities>message.read,message.write,message.send</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/account</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/messagequantities</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.4/messagefoldertypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/message</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/attachment</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/messagetypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/multimedia</featuresetname>
+        <service>Media</service>
+        <capabilities>media.read,media.write</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/audioplayer</featuresetname>
+        <service>Audioplayer</service>
+        <capabilities>player.audio.open,player.audio.control</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.2/camera</featuresetname>
+        <service>Camera</service>
+        <capabilities>camera.start,camera.capture,camera.record</capabilities>
+    </feature-set>
+    <!--feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.2/videoplayer</featuresetname>
+        <service>Video Player</service>
+        <capabilities>player.video.open,player.video.control</capabilities>
+    </feature-set-->
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/telephony</featuresetname>
+        <service>Telephony</service>
+        <capabilities>commlog.get,commlog.delete,telephony.voicecall</capabilities>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/widget</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/widgetmanager</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.5/exception</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.5/exceptiontypes</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1/callrecord</featuresetname>
+    </feature-set>
+    <feature-set type="JIL">
+        <featuresetname>http://jil.org/jil/api/1.1.1/callrecordtypes</featuresetname>
+    </feature-set>
+    
+    <feature-set type="WAC">
+        <featuresetname>http://wacapps.net/api/pim.contact</featuresetname>
+        <service>Contact</service>
+        <featureFile>waccontact.js</featureFile>    
+            <feature>
+               <featurename>http://wacapps.net/api/pim.contact.read</featurename>
+               <capabilities>pim.contact.read</capabilities>
+            </feature>           
+            <feature>
+               <featurename>http://wacapps.net/api/pim.contact.write</featurename>
+               <capabilities>pim.contact.write</capabilities>
+            </feature>
+    </feature-set>
+    
+    <feature-set type="WAC">        
+         <featuresetname>http://wacapps.net/api/accelerometer</featuresetname>
+         <service>Accelerometer</service>        
+         <featureFile>sensors.js</featureFile>             
+         <capabilities>accelerometer</capabilities>         
+    </feature-set>
+    
+    <feature-set type="WAC">
+         <featuresetname>http://wacapps.net/api/orientation</featuresetname>
+         <service>Orientation</service>
+         <featureFile>orientation.js</featureFile>             
+         <capabilities>orientation</capabilities>         
+    </feature-set>
+
+    <feature-set type="WAC">
+        <featuresetname>http://wacapps.net/api/devicestatus</featuresetname>
+        <service>DeviceStatus</service>
+        <featureFile>devicestatus.js</featureFile>    
+            <feature>
+               <featurename>http://wacapps.net/api/devicestatus</featurename>
+               <capabilities>devicestatus</capabilities>
+            </feature>           
+            <feature>
+               <featurename>http://wacapps.net/api/devicestatus.deviceinfo</featurename>
+               <capabilities>devicestatus.deviceinfo</capabilities>
+            </feature>
+            <feature>
+               <featurename>http://wacapps.net/api/devicestatus.networkinfo</featurename>
+               <capabilities>devicestatus.networkinfo</capabilities>
+            </feature>
+    </feature-set>
+
+    <feature-set type="WAC">
+        <featuresetname>http://wacapps.net/api/camera</featuresetname>
+        <service>Camera</service>
+        <featureFile>camera.js</featureFile>    
+            <feature>
+               <featurename>http://wacapps.net/api/camera.show</featurename>
+               <capabilities>camera.show</capabilities>
+            </feature>           
+            <feature>
+               <featurename>http://wacapps.net/api/camera.capture</featurename>
+               <capabilities>camera.capture</capabilities>
+            </feature>
+   </feature-set>
+
+  <feature-set type="WAC">
+        <featuresetname>http://www.w3.org/TR/geolocation-API/</featuresetname>
+        <service>Location</service>
+        <capabilities>geolocation.position</capabilities>    
+  </feature-set>
+
+    <feature-set type="WAC">
+        <featuresetname>http://wacapps.net/api/filesystem</featuresetname>
+        <service>filesystem</service>
+        <featureFile>filesystem.js</featureFile>    
+		    <feature>
+               <featurename>http://wacapps.net/api/filesystem</featurename>
+               <capabilities>filesystem</capabilities>
+            </feature> 
+            <feature>
+               <featurename>http://wacapps.net/api/filesystem.read</featurename>
+               <capabilities>filesystem.read</capabilities>
+            </feature>           
+            <feature>
+               <featurename>http://wacapps.net/api/filesystem.write</featurename>
+               <capabilities>filesystem.write</capabilities>
+            </feature>
+   </feature-set>    
+   
+   <feature-set type="WAC">
+        <featuresetname>http://wacapps.net/api/pim.calendar</featuresetname>
+        <service>Calendar</service>
+        <featureFile>calendar.js</featureFile>    
+            <feature>
+               <featurename>http://wacapps.net/api/pim.calendar.read</featurename>
+               <capabilities>pim.calendar.read</capabilities>
+            </feature>           
+            <feature>
+               <featurename>http://wacapps.net/api/pim.calendar.write</featurename>
+               <capabilities>pim.calendar.write</capabilities>
+            </feature>
+   </feature-set> 
+   
+   <feature-set type="WAC">
+        <featuresetname>http://wacapps.net/api/messaging</featuresetname>
+        <service>Messaging</service>
+        <featureFile>wacmessaging.js</featureFile>    
+            <feature>
+               <featurename>http://wacapps.net/api/messaging.send</featurename>
+               <capabilities>messaging.send</capabilities>
+            </feature>           
+            <feature>
+               <featurename>http://wacapps.net/api/messaging.find</featurename>
+               <capabilities>messaging.find</capabilities>
+            </feature>
+            <feature>
+               <featurename>http://wacapps.net/api/messaging.subscribe</featurename>
+               <capabilities>messaging.subscribe</capabilities>
+            </feature>
+            <feature>
+               <featurename>http://wacapps.net/api/messaging.write</featurename>
+               <capabilities>messaging.write</capabilities>
+            </feature>
+   </feature-set>       
+   
+</mapping>    
+

@@ -1,0 +1,3 @@
+CHARACTER_SET UTF8
+#define qtn_uninstall_confirm "Viltu fjarlægja '%U[91]'? "
+#define qtn_uninstall_preparing "Fjarlægir"

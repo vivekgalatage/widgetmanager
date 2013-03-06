@@ -1,0 +1,87 @@
+<element>
+<promptQuestionBlanket>Allow widget to always access the following?</promptQuestionBlanket>
+ 
+<capability >accelerometer</capability>
+<prompt>Accelerometer</prompt>
+<capability >pim.calendar</capability>
+<prompt>Calendar Services</prompt>
+<capability >pim.calendar.read</capability>
+<prompt>Read Calendar</prompt>
+<capability >pim.calendar.write</capability>
+<prompt>Modify Calendar</prompt>
+
+<capability >camera</capability>
+<prompt>Camera</prompt>  
+<capability >camera.show</capability>
+<prompt>Open Camera</prompt>
+<capability >camera.capture</capability>
+<prompt>Take Picture</prompt>
+<capability >pim.contact</capability>
+<prompt>Contact Services</prompt>
+<capability >pim.contact.read</capability>
+<prompt>Read Contact</prompt>
+<capability >pim.contact.write</capability>
+<prompt>Modify Contact</prompt>
+
+<capability >deviceinteraction</capability>
+<prompt>Settings</prompt>
+<capability >devicestatus</capability>
+<prompt>Phone Status</prompt>
+<capability >devicestatus.deviceinfo</capability>
+<prompt>Phone Info</prompt>
+<capability >devicestatus.networkinfo</capability>
+<prompt>Network info</prompt>
+
+<capability >filesystem</capability>
+<prompt>Files</prompt>
+<capability >filesystem.read</capability>
+<prompt>Read Files</prompt>
+<capability >filesystem.write</capability>
+<prompt>Edit Files</prompt>
+<capability >geolocation.position</capability>
+<prompt>Location</prompt>
+
+<capability >messaging</capability>
+<prompt>Messaging Service</prompt>
+<capability >messaging.write</capability>
+<prompt>Create Message</prompt>
+<capability >messaging.send</capability>
+<prompt>Send Message</prompt>
+<capability >messaging.find</capability>
+<prompt>Search Messages</prompt>
+<capability >messaging.subscribe</capability>
+<prompt>Message Notifications</prompt>
+<capability >orientation</capability>
+<prompt>Orientation</prompt>
+<capability >pim.task</capability>
+<prompt>To-do</prompt>
+<capability >pim.task.read</capability>
+<prompt>ReadTo-do</prompt>
+<capability >pim.task.write</capability>
+<prompt>CreateTo-do</prompt>
+<capability >externalNetworkAccess</capability>
+<prompt>External Network</prompt>
+
+<capability >test.one</capability>
+<prompt>wink</prompt>
+<capability >test.two</capability>
+<prompt>sayHi</prompt>
+<capability >test.three</capability>
+<prompt>mimic</prompt>
+<capability >test.four</capability>
+<prompt>saySomething</prompt>
+<capability >test.five</capability>
+<prompt>callMeLater</prompt>
+<capability >test.six</capability>
+<prompt>remindMeLater</prompt>
+<capability >test.seven</capability>
+<prompt>startAnnoying</prompt>
+<capability >test.eight</capability>
+<prompt>startBlabbering</prompt>
+<capability >test.*</capability>
+<prompt>Security Testing Service</prompt>
+
+</element>
+  
+  
+
